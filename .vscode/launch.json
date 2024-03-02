@@ -1,0 +1,32 @@
+{
+  "configurations": [
+    {
+      "name": "Debug FAAData Test (console)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "Publish Debug",
+      "program": "${workspaceFolder}/artifacts/publish/FAATests/debug_net8.0/FAATests.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "stopAtEntry": true,
+      "console": "internalConsole"
+    },
+/*     {
+      "name": "C#: Arinc424 Debug",
+      "type": "dotnet",
+      "request": "launch",
+      "projectPath": "${workspaceFolder}/source/Arinc424.csproj"
+    },
+    {
+      "name": ".NET Core Launch (console)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/bin/Debug/<Target, like net6.0>/<YourProjectName>.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "stopAtEntry": false,
+      "console": "internalConsole"
+    }, */
+  ]
+}

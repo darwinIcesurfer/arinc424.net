@@ -1,7 +1,23 @@
+<!-- <Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>exe</OutputType>
+    <TargetFrameworks>net8.0</TargetFrameworks>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseArtifactsOutput>true</UseArtifactsOutput>
+    <IsPackable>false</IsPackable>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    <AppDesignerFolder>properties</AppDesignerFolder>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Docfx.App" Version="2.75.2" />
+  </ItemGroup>
+</Project> -->
+
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>exe</OutputType>
-
+    <TargetFramework>net8.0</TargetFramework>
     <AppDesignerFolder>properties</AppDesignerFolder>
   </PropertyGroup>
 
@@ -9,3 +25,4 @@
     <PackageReference Include="Docfx.App" Version="2.75.2" />
   </ItemGroup>
 </Project>
+

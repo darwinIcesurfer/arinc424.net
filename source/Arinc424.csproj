@@ -1,6 +1,27 @@
-<Project Sdk="Microsoft.NET.Sdk">
+<!-- <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>library</OutputType>
+    <RootNamespace>Arinc.Spec424</RootNamespace>
+    <TargetFrameworks>net8.0</TargetFrameworks>
+    <TargetFrameworks>net8.0</TargetFrameworks>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseArtifactsOutput>true</UseArtifactsOutput>
+    <IsPackable>false</IsPackable>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="ZeroLog" Version="2.1.1" />
+  </ItemGroup>
+</Project> -->
+
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <OutputPath>artifacts\</OutputPath>
     <RootNamespace>Arinc.Spec424</RootNamespace>
   </PropertyGroup>
 

@@ -1,13 +1,28 @@
+<!-- <Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>exe</OutputType>
+    <TargetFrameworks>net8.0</TargetFrameworks>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseArtifactsOutput>true</UseArtifactsOutput>
+    <IsPackable>false</IsPackable>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="BenchmarkDotNet" Version="0.13.12" />
+    <ProjectReference Include="../../source/Arinc424.csproj" />
+    <None Include="../data/**" LinkBase="data" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>
+ -->
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
   </PropertyGroup>
-
   <ItemGroup>
     <PackageReference Include="BenchmarkDotNet" Version="0.13.12" />
-
     <ProjectReference Include="../../source/Arinc424.csproj" />
-
     <None Include="../data/**" LinkBase="data" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
 </Project>

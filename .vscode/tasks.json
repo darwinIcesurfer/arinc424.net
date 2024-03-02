@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+
+    // If there is no project specified after publish, the solution file will be used to determine which 
+    // projects should be published.  In the case below, the .csproj file from each project will be used for
+    // the publishing information
+    {
+      "label": "Publish Debug",
+      "type": "process",
+      "command": "dotnet",
+      "args": [
+        "publish",
+        "-c",
+        "Debug"
+      ],
+      "problemMatcher": "$msCompile"
+    }
+  ]
+}
